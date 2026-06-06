@@ -1,0 +1,29 @@
+# Compiled binaries (platform-dependent)
+brute-extend
+direct-decrypt
+stream-reuse
+
+# Upstream source directory cloned during installation
+_stream-reuse/
+
+# Build artifacts / C caches
+*.o
+*.a
+
+# Temporary working folders generated during recovery
+.scratch/
+.extend_scratch/
+usb_work/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Operating system files
+.DS_Store
+Thumbs.db
